@@ -22,4 +22,7 @@ build/*
 
 # Exclude Fonts
 _fonts/
+
+# Exclude Dreamweaver Sync files
+dwsync.xml
  
