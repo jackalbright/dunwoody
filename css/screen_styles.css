@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+#header{
+height:165px;
+text-align:center;
+background-color:#fff;
+background-image:url(../images/header_arch_large.jpg);
+background-repeat:no-repeat;
+background-position:top left;
+padding: 20px 0 0 0;
+}
+
+
+body {
+	color: #000;
+	line-height: 2em;
+	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+	font-size: 14px;
+	/*background: #1d668e url(../images/pageBackground.jpg) 0px 0px repeat-x  repeat-y ;*/
+	background: #00688f;
+	background-image:url(../images/pageBackground2.jpg);
+	background-position:top left;
+	background-repeat:repeat-x ;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+p.strong{
+	font-weight:bold;
+}
+.page {
+	max-width: 980px;
+	min-width: 980px;
+	margin: 0px auto;
+	position: relative; background-color: #fff;
+}
+
+#homePictureCollection{
+	overflow:hidden;
+	clear:both;
+	width:100%;
+	background-color:#c0a47f;
+	margin-top:-2px;
+	border:none;
+}
+#homePictureCollection .pictureBox{
+	float:left;
+	width:220px;
+	margin:10px;
+	background-color:#116791;
+}
+#homePictureCollection .pictureBox p{
+	color:#fff;
+}
+#homePictureCollection .pictureBox a{
+	text-decoration:none !important;
+	color:#fff !important;
+}
+#homePictureCollection .first{
+	margin-left:20px;
+}
+#homePictureCollection .last{
+	margin-right:20px;
+}
+
+
+p { margin: 0px 0px .75em 0px; }
+a {
+	 /*color: #de9000;*/ 
+	 color:#003f62;
+}
+a:hover { color: #00688f; }
+#footer a {
+	 color: #fff; 
+}
+#footer a:hover {
+	 color: #00688f; 
+}
+a.cta {
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: bold;
+	text-decoration: none;
+	margin: .5em 0 0 0;
+	padding: 0px 12px 0px 0px;
+	background: url(../images/cta_arrow.png) no-repeat right 0px;
+}
+a.cta:hover { background-position: right -50px; }
+#footer { 
+	clear:both;
+	display:table;
+	color: #fff;  ; 
+	text-align:center;
+	width: 980px;
+	margin:0;
+	border:none;
+}
+
+#footerTop{
+	display:table-cell;
+	border-collapse:collapse;
+	border:none;
+	padding: 6px 10px 3px 0px;
+	background-color: #a38358;
+	width:100%;
+	/*background-image:url(../images/footerTop_bg1.jpg);
+	background-repeat:repeat-x;
+	background-position:top left;*/
+	margin:0;
+}
+#footerBottom{
+	display:table-cell;
+	padding: 3px ;
+	background-color: #003f62;
+	text-align:center;
+	height:42px;
+}
+.footerIcon{
+	vertical-align:middle;
+}
+
+
+.clear-fix { clear: both; line-height: 1px; }
+
+/* text resizer classes*/
+.controlstyle a{ /*links inside DIV sizecontroldiv*/
+outline:none;
+}
+
+.controlstyle a img{ /*image links inside DIV sizecontroldiv*/
+border-width:0;
+}
+
+.controlstyle a.selectedcontrol img{ /*selected control's image*/
+border-bottom:4px solid darkred;
+}
+#sizecontroldiv{
+	float:right;
+	margin:20px;
+	color:#fff;
+	font-size:12px;
+}
+
+#faq_questionList{
+	line-height:1.2em;
+	font-weight:bold;
+}
+.question{
+	font-weight:bold;
+}
+.tvSpot{
+	/*width:400px;
+	height:212px;*/
+
+	margin-left:auto;
+	margin-right:auto;
+}
+#subpage_mainContent .storyBox{
+	margin:10px 45px;
+}
+#subpage_mainContent .leadershipStoryBox{
+	margin:10px 0;
+}
+#subpage_mainContent .awardsStoryBox{
+	margin:10px 0;
+}
+.storyBoxRight{
+	float:right;
+	width:35%;
+	padding:5px;
+}
+.storyBoxRight p{
+	margin: 3px !important;
+}
+
+.storyBoxLeft{
+	float:left;
+	width:60%;
+	padding:0;
+	margin:0;
+}
+.leaderShip .storyBoxRight{
+	width: 50% !important;
+	text-align:center;
+}
+.leaderShip .storyBoxLeft{
+	width:45% !important;
+}
+
+.residencesStoryBoxRight{
+	width: 60% !important;
+	text-align:left;
+	float:left;
+}
+.residencesStoryBoxLeft{
+	width:30% !important;
+	text-align:left;
+	float:left;
+	vertical-align:middle;
+}
+.residencesStoryBoxRight h3{
+	
+}
+
+p.topEmphasis{
+	font-style:italic;
+	font-weight:bold;
+	font-size:1.4em;
+}
+p.emphasis{
+	font-weight:bold;
+}
+p.caption{
+	font-style:italic;
+	font-weight:bold;
+	font-size: .8em !important;
+}
+.cuisineMenu .menuTitle{
+	font-weight:bold;
+	font-style:italic;
+}
+.cuisineMenu p{
+	line-height:1.2em !important;
+}
